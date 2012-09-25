@@ -1,0 +1,41 @@
+M2E Connector for Batoo JPA Maven Plugin
+
+This project implements the M2E Connector for Batoo JPA Maven plugin. Using this plugin, Persistent classes are enhanced in development time which is useful for projects running on Anroid and serialze the persistence classes to external VMs.
+
+
+L I C E N S E
+
+Copyright (c) 2012 - Batoo Software ve Consultancy Ltd.
+
+This copyrighted material is made available to anyone wishing to use, modify,
+copy, or redistribute it subject to the terms and conditions of the GNU
+Lesser General Public License, as published by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License
+for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with this distribution; if not, write to:
+Free Software Foundation, Inc.
+51 Franklin Street, Fifth Floor
+Boston, MA  02110-1301  USA
+
+
+I N S T A L L I N G
+
+1. Clone, build and install Batoo JPA as per instructions at https://github.com/BatooOrg/BatooJPA/blob/master/README
+
+2. Clone the repository using
+	$ git clone git@github.com:BatooOrg/org.batoo.m2e.jpa.git
+
+3. Build the project using, note that the initial build may take some time
+	$ mvn install
+	
+4. Copy the generated plugin in target/org.batoo.m2e.jpa-0.1.0.jar to your Eclipse plugins directory and restart Eclipse.
+
+Add batoo-maven-plugin to your POM as shown in https://github.com/BatooOrg/HelloAndroid/blob/master/pom.xml
+
+
+->>> Please be kind an send pull requests for public benefit
