@@ -28,7 +28,7 @@ I N S T A L L I N G
 1. Clone, build and install Batoo JPA as per instructions at https://github.com/BatooOrg/BatooJPA/blob/master/README
 
 2. Clone the repository using
-	$ git clone git@github.com:BatooOrg/org.batoo.m2e.jpa.git
+	$ git clone git://github.com/BatooOrg/org.batoo.m2e.jpa.git
 
 3. Build the project using, note that the initial build may take some time
 	$ mvn install
